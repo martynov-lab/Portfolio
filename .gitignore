@@ -24,6 +24,7 @@ $RECYCLE.BIN/
 *.lnk
 
 # Folder file source
-/_source
+_source/
 *.kit
 *.scss
+*.config
