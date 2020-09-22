@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <link rel="shortcut icon" href="favicon.ico"> -->
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,22 +28,22 @@
 			<nav class="header__menu">
 				<ul class="header__list">
 					<li>
-						<a href="" class="header__link">About</a>
+						<a href="#about" class="header__link">About</a>
 					</li>
 					<li>
-						<a href="" class="header__link">Services</a>
+						<a href="#services" class="header__link">Services</a>
 					</li>
 					<li>
-						<a href="" class="header__link">Portfolio</a>
+						<a href="#portfolio" class="header__link">Portfolio</a>
 					</li>
 					<li>
-						<a href="" class="header__link">Skills</a>
+						<a href="#" class="header__link">Skills</a>
 					</li>
 					<li>
-						<a href="" class="header__link">Resume</a>
+						<a href="#" class="header__link">Resume</a>
 					</li>
 					<li>
-						<a href="" class="header__link">Contact</a>
+						<a href="#" class="header__link">Contact</a>
 					</li>
 				</ul>
 			</nav>
@@ -64,7 +64,7 @@
 			</div>
 		</div>
 		<!-- -------------------------------------- -->
-		<div class="about">
+		<div id="about" class="about">
 			<div class="container">
 				<div class="about__content">
 					<div class="title-body">
@@ -88,7 +88,7 @@
 			</div>
 		</div>
 		<!-- -------------------------------------- -->
-		<div class="services">
+		<div id="services" class="services">
 			<div class="container">
 				<div class="services__content">
 					<div class="title-body">
@@ -133,7 +133,7 @@
 			</div>
 		</div>
 		<!-- -------------------------------------- -->
-		<div class="portfolio">
+		<div id="portfolio" class="portfolio">
 			<div class="container">
 				<div class="portfolio__content">
 					<div class="title-body">
@@ -145,13 +145,13 @@
 						nibh ante facilisis.
 					</div>
 					<div class="portfolio__nav">
-						<a href="" class="portfolio__nav-link">All</a>
-						<a href="" class="portfolio__nav-link">Landing page</a>
-						<a href="" class="portfolio__nav-link">Store`s website</a>
-						<a href="" class="portfolio__nav-link">Public page</a>
+						<a href="#" class="portfolio__nav-link all">All</a>
+						<a href="#" class="portfolio__nav-link landing-page">Landing page</a>
+						<a href="#" class="portfolio__nav-link stores-website">Store`s website</a>
+						<a href="#" class="portfolio__nav-link public-page">Public page</a>
 					</div>
 					<div class="portfolio__body">
-						<div class="portfolio__item">
+						<div class="portfolio__item" data-type="storesWebsite">
 							<img src="../img/portfolio/01.jpg" alt="" />
 							<div class="portfolio__item-block-text">
 								<div class="portfolio__item-text">
@@ -166,7 +166,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="portfolio__item">
+						<div class="portfolio__item" data-type="landingPage">
 							<img src="../img/portfolio/02.jpg" alt="" />
 							<div class="portfolio__item-block-text">
 								<div class="portfolio__item-text">
@@ -181,7 +181,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="portfolio__item">
+						<div class="portfolio__item" data-type="publicPage">
 							<img src="../img/portfolio/03.jpg" alt="" />
 							<div class="portfolio__item-block-text">
 								<div class="portfolio__item-text">
@@ -196,7 +196,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="portfolio__item">
+						<div class="portfolio__item" data-type="landingPage">
 							<img src="../img/portfolio/04.jpg" alt="" />
 							<div class="portfolio__item-block-text">
 								<div class="portfolio__item-text">
@@ -211,7 +211,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="portfolio__item">
+						<div class="portfolio__item" data-type="landingPage">
 							<img src="../img/portfolio/05.jpg" alt="" />
 							<div class="portfolio__item-block-text">
 								<div class="portfolio__item-text">
@@ -226,7 +226,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="portfolio__item">
+						<div class="portfolio__item" data-type="storesWebsite">
 							<img src="../img/portfolio/06.jpg" alt="" />
 							<div class="portfolio__item-block-text">
 								<div class="portfolio__item-text">
@@ -241,7 +241,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="portfolio__item">
+						<div class="portfolio__item" data-type="publicPage">
 							<img src="../img/portfolio/07.jpg" alt="" />
 							<div class="portfolio__item-block-text">
 								<div class="portfolio__item-text">
@@ -256,7 +256,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="portfolio__item">
+						<div class="portfolio__item" data-type="publicPage">
 							<img src="../img/portfolio/08.jpg" alt="" />
 							<div class="portfolio__item-block-text">
 								<div class="portfolio__item-text">
@@ -276,7 +276,76 @@
 			</div>
 		</div>
 		<!-- -------------------------------------- -->
+		<div class="skills">
+			<div class="container">
+				<div class="skills__content">
+					<div class="title-body">
+						<div class="title">My Skills</div>
+						<div class="line"></div>
+					</div>
+					<div class="skills__row">
+						<div class="skills__column">
+							<div class="skills__title">My Skills Bar Developer</div>
+							<div class="skills__item">
+								<span class="skills__name">Html</span>
+								<div class="skills__percent">
+									<div class="skills__progress" style="width: 95%;"></div>
+								</div>
+								<span class="skills__value">95%</span>
+							</div>
+							<div class="skills__item">
+								<span class="skills__name">CSS</span>
+								<div class="skills__percent">
+									<div class="skills__progress" style="width: 90%;"></div>
+								</div>
+								<span class="skills__value">90%</span>
+							</div>
+							<div class="skills__item">
+								<span class="skills__name">JavaScript</span>
+								<div class="skills__percent">
+									<div class="skills__progress" style="width: 55%;"></div>
+								</div>
+								<span class="skills__value">55%</span>
+							</div>
+							<div class="skills__item">
+								<span class="skills__name">React</span>
+								<div class="skills__percent">
+									<div class="skills__progress" style="width: 20%;"></div>
+								</div>
+								<span class="skills__value">20%</span>
+							</div>
+						</div>
+						<div class="skills__column">
+							<div class="skills__title">Title</div>
+							<div class="skills__text">
+								<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis aut sit cupiditate autem?
+									Quod,
+									aspernatur laboriosam. Qui cum saepe dolor magni voluptas, assumenda quibusdam eligendi
+									excepturi cupiditate, amet repellat architecto nobis. Quaerat consectetur ipsum, molestiae
+									quibusdam id itaque ex voluptatibus autem amet eligendi hic. Inventore dolor eligendi
+									accusamus
+									illo odit.</p>
+								<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis aut sit cupiditate autem?
+									Quod,
+									aspernatur laboriosam. Qui cum saepe dolor magni voluptas, assumenda quibusdam eligendi
+									excepturi cupiditate, amet repellat architecto nobis. Quaerat consectetur ipsum, molestiae
+									quibusdam id itaque ex voluptatibus autem amet eligendi hic. Inventore dolor eligendi
+									accusamus
+									illo odit.</p>
+								<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis aut sit cupiditate autem?
+									Quod,
+									aspernatur laboriosam. Qui cum saepe dolor magni voluptas, assumenda quibusdam eligendi
+									excepturi cupiditate, amet repellat architecto nobis. Quaerat consectetur ipsum, molestiae
+									quibusdam id itaque ex voluptatibus autem amet eligendi hic. Inventore dolor eligendi
+									accusamus
+									illo odit.</p>
 
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 		<!-- -------------------------------------- -->
 
 		<!-- -------------------------------------- -->
