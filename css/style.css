@@ -788,3 +788,131 @@ body {
       margin: 0px 0px 20px 0px; }
       .skills__text p:last-child {
         margin: 0px 0px 0px 0px; }
+
+.education {
+  padding: 100px 0px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#f4f5f6));
+  background: -webkit-linear-gradient(#f9f9f9, #f4f5f6);
+  background: -o-linear-gradient(#f9f9f9, #f4f5f6);
+  background: linear-gradient(#f9f9f9, #f4f5f6); }
+  .education__body {
+    margin-top: 60px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    font-size: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .education__row {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    font-size: 0;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .education__item {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 50%;
+    flex: 1 1 50%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    font-size: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch; }
+  .education__institution {
+    font-size: 16px;
+    font-weight: 700;
+    color: #616e7c;
+    text-transform: uppercase;
+    margin: 0px 0px 15px 0px; }
+  .education__specialty {
+    font-size: 16px;
+    font-weight: 700;
+    color: #e87e04;
+    margin: 0px 0px 20px 0px; }
+  .education__text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #616e7c;
+    line-height: 20px; }
+  .education__circle {
+    margin: 0px 20px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 150px;
+    flex: 0 0 150px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid #d9d9da;
+    -webkit-box-shadow: 0px 0px 3px 0.5px rgba(0, 0, 0, 0.09);
+    box-shadow: 0px 0px 3px 0.5px rgba(0, 0, 0, 0.09);
+    background-color: #fff;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    font-size: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .education__age {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #616e7c;
+    text-transform: uppercase; }
+  .education__line {
+    margin: 20px auto;
+    width: 5px;
+    height: 2px;
+    background-color: #616e7c; }
+  .education__vertical-line {
+    width: 1px;
+    height: 120px;
+    background-color: #d9d9da;
+    -webkit-box-shadow: 0px 0px 3px 0.5px rgba(0, 0, 0, 0.09);
+    box-shadow: 0px 0px 3px 0.5px rgba(0, 0, 0, 0.09); }
+
+.text-right {
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  text-align: right; }
+
+.text-left {
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  text-align: left; }
